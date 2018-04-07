@@ -66,6 +66,7 @@ First you'll need to add audio files to your project.
 var Sound = require('react-native-sound');
 
 // Enable playback in silence mode
+// Pass in true in order to enable mixing with other sounds played on device.
 Sound.setCategory('Playback');
 
 // Load the sound file 'whoosh.mp3' from the app bundle
